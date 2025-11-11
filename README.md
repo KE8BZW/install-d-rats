@@ -12,8 +12,9 @@ D-RATS (Digital Radio Amateur Text Service) is an open-source communications too
 - **Administrator privileges** (required for WSL setup)
 - **Internet connection** (for downloading components and fetching active ratflectors)
 - **COM ports** configured for your D-STAR radio and TNC (if applicable)
+- **Amateur Radio License** (for communicating via the D-RATS software)
 
-### Hardware Requirements
+### Hardware Requirements (for RF use)
 - D-STAR capable radio (e.g., Icom ID-51, ID-31, etc.)
 - Terminal Node Controller (TNC) for packet radio (optional)
 - Appropriate cables and adapters for COM port connections
@@ -45,7 +46,7 @@ Open PowerShell as Administrator and execute the script with your callsign and n
 
 Example with custom paths:
 ```powershell
-.\Install-D-RATS.ps1 -Callsign "KE8BZW" -Name "John Doe" -InstallPath "D:\HamRadio\D-RATS" -DStarComPort "COM5" -TncComPort "COM2"
+.\Install-D-RATS.ps1 -Callsign "JD0E" -Name "John Doe" -InstallPath "D:\HamRadio\D-RATS" -DStarComPort "COM5" -TncComPort "COM2"
 ```
 
 ### What the Installer Does
