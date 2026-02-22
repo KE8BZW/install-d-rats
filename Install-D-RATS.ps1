@@ -23,7 +23,7 @@ param (
 
 # Constants
 $LogPath = Join-Path $InstallPath "install.log"
-$UbuntuDistro = "Ubuntu-22.04"
+$UbuntuDistro = "Ubuntu-24.04"
 $DRatsRepoUrl = "https://github.com/ham-radio-software/D-Rats.git"
 $DRatsPath = "/opt/d-rats"
 $ConfigDir = "$env:APPDATA\D-RATS"
